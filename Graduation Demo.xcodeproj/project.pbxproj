@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3815A74E268D1D0D00872854 /* KeyWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815A74D268D1D0D00872854 /* KeyWords.swift */; };
+		38210C72268910B5004CD897 /* Similarity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38210C71268910B5004CD897 /* Similarity.swift */; };
+		38210C7726891120004CD897 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38210C7426891120004CD897 /* ApiService.swift */; };
+		38210C7826891120004CD897 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38210C7526891120004CD897 /* Constants.swift */; };
+		38210C7926891120004CD897 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38210C7626891120004CD897 /* ApiRouter.swift */; };
 		383C270F2683AF3B00776A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383C270E2683AF3B00776A52 /* AppDelegate.swift */; };
 		383C27112683AF3B00776A52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383C27102683AF3B00776A52 /* SceneDelegate.swift */; };
-		383C27132683AF3B00776A52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383C27122683AF3B00776A52 /* ViewController.swift */; };
-		383C27162683AF3B00776A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383C27142683AF3B00776A52 /* Main.storyboard */; };
+		383C27132683AF3B00776A52 /* StudentAnswerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383C27122683AF3B00776A52 /* StudentAnswerVC.swift */; };
 		383C27182683AF3C00776A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383C27172683AF3C00776A52 /* Assets.xcassets */; };
 		383C271B2683AF3C00776A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383C27192683AF3C00776A52 /* LaunchScreen.storyboard */; };
+		383C27262683B11F00776A52 /* ProfessorAnswerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383C27252683B11F00776A52 /* ProfessorAnswerVC.swift */; };
+		383C27282683B13300776A52 /* ShowingAnswersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383C27272683B13300776A52 /* ShowingAnswersVC.swift */; };
+		383C272A2683B14500776A52 /* SimilarityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383C27292683B14500776A52 /* SimilarityVC.swift */; };
+		383C272D2683B1B300776A52 /* anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383C272C2683B1B300776A52 /* anchor.swift */; };
+		9BDED47E65DCC295A274E43E /* Pods_Graduation_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AABBCB411B1F07B7F436E3 /* Pods_Graduation_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3815A74D268D1D0D00872854 /* KeyWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyWords.swift; sourceTree = "<group>"; };
+		38210C71268910B5004CD897 /* Similarity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Similarity.swift; sourceTree = "<group>"; };
+		38210C7426891120004CD897 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		38210C7526891120004CD897 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		38210C7626891120004CD897 /* ApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
 		383C270B2683AF3B00776A52 /* Graduation Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graduation Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		383C270E2683AF3B00776A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		383C27102683AF3B00776A52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		383C27122683AF3B00776A52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		383C27152683AF3B00776A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		383C27122683AF3B00776A52 /* StudentAnswerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAnswerVC.swift; sourceTree = "<group>"; };
 		383C27172683AF3C00776A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		383C271A2683AF3C00776A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		383C271C2683AF3C00776A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383C27252683B11F00776A52 /* ProfessorAnswerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorAnswerVC.swift; sourceTree = "<group>"; };
+		383C27272683B13300776A52 /* ShowingAnswersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAnswersVC.swift; sourceTree = "<group>"; };
+		383C27292683B14500776A52 /* SimilarityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarityVC.swift; sourceTree = "<group>"; };
+		383C272C2683B1B300776A52 /* anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anchor.swift; sourceTree = "<group>"; };
+		A2AABBCB411B1F07B7F436E3 /* Pods_Graduation_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Graduation_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AB2D4AB1DFDF48E238A5B0 /* Pods-Graduation Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graduation Demo.release.xcconfig"; path = "Target Support Files/Pods-Graduation Demo/Pods-Graduation Demo.release.xcconfig"; sourceTree = "<group>"; };
+		EC7719AF910ACCDA6E74BE1C /* Pods-Graduation Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graduation Demo.debug.xcconfig"; path = "Target Support Files/Pods-Graduation Demo/Pods-Graduation Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDED47E65DCC295A274E43E /* Pods_Graduation_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38210C70268910A7004CD897 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38210C71268910B5004CD897 /* Similarity.swift */,
+				3815A74D268D1D0D00872854 /* KeyWords.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38210C73268910F7004CD897 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				38210C7626891120004CD897 /* ApiRouter.swift */,
+				38210C7426891120004CD897 /* ApiService.swift */,
+				38210C7526891120004CD897 /* Constants.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		383C27022683AF3B00776A52 = {
 			isa = PBXGroup;
 			children = (
 				383C270D2683AF3B00776A52 /* Graduation Demo */,
 				383C270C2683AF3B00776A52 /* Products */,
+				80623A4AB0C9F2CE777DC15E /* Pods */,
+				E934042A4E06B7F87F874A8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,69 @@
 		383C270D2683AF3B00776A52 /* Graduation Demo */ = {
 			isa = PBXGroup;
 			children = (
-				383C270E2683AF3B00776A52 /* AppDelegate.swift */,
-				383C27102683AF3B00776A52 /* SceneDelegate.swift */,
-				383C27122683AF3B00776A52 /* ViewController.swift */,
-				383C27142683AF3B00776A52 /* Main.storyboard */,
-				383C27172683AF3C00776A52 /* Assets.xcassets */,
-				383C27192683AF3C00776A52 /* LaunchScreen.storyboard */,
+				383C27222683AF5300776A52 /* Delegation */,
+				38210C73268910F7004CD897 /* API */,
+				38210C70268910A7004CD897 /* Model */,
+				383C27232683AF5D00776A52 /* View */,
+				383C272B2683B19600776A52 /* Extensions */,
+				383C27242683AF6200776A52 /* Providers */,
 				383C271C2683AF3C00776A52 /* Info.plist */,
 			);
 			path = "Graduation Demo";
+			sourceTree = "<group>";
+		};
+		383C27222683AF5300776A52 /* Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				383C270E2683AF3B00776A52 /* AppDelegate.swift */,
+				383C27102683AF3B00776A52 /* SceneDelegate.swift */,
+			);
+			path = Delegation;
+			sourceTree = "<group>";
+		};
+		383C27232683AF5D00776A52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				383C27122683AF3B00776A52 /* StudentAnswerVC.swift */,
+				383C27252683B11F00776A52 /* ProfessorAnswerVC.swift */,
+				383C27272683B13300776A52 /* ShowingAnswersVC.swift */,
+				383C27292683B14500776A52 /* SimilarityVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		383C27242683AF6200776A52 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				383C27172683AF3C00776A52 /* Assets.xcassets */,
+				383C27192683AF3C00776A52 /* LaunchScreen.storyboard */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		383C272B2683B19600776A52 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				383C272C2683B1B300776A52 /* anchor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80623A4AB0C9F2CE777DC15E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC7719AF910ACCDA6E74BE1C /* Pods-Graduation Demo.debug.xcconfig */,
+				A4AB2D4AB1DFDF48E238A5B0 /* Pods-Graduation Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E934042A4E06B7F87F874A8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2AABBCB411B1F07B7F436E3 /* Pods_Graduation_Demo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +170,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 383C271F2683AF3C00776A52 /* Build configuration list for PBXNativeTarget "Graduation Demo" */;
 			buildPhases = (
+				C0570BA8B6AA15D2AE1BF18A /* [CP] Check Pods Manifest.lock */,
 				383C27072683AF3B00776A52 /* Sources */,
 				383C27082683AF3B00776A52 /* Frameworks */,
 				383C27092683AF3B00776A52 /* Resources */,
+				3319A7EB756A4A25909B2C0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Graduation Demo";
+			packageProductDependencies = (
+			);
 			productName = "Graduation Demo";
 			productReference = 383C270B2683AF3B00776A52 /* Graduation Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +210,8 @@
 				Base,
 			);
 			mainGroup = 383C27022683AF3B00776A52;
+			packageReferences = (
+			);
 			productRefGroup = 383C270C2683AF3B00776A52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,19 +228,69 @@
 			files = (
 				383C271B2683AF3C00776A52 /* LaunchScreen.storyboard in Resources */,
 				383C27182683AF3C00776A52 /* Assets.xcassets in Resources */,
-				383C27162683AF3B00776A52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3319A7EB756A4A25909B2C0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Graduation Demo/Pods-Graduation Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Graduation Demo/Pods-Graduation Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Graduation Demo/Pods-Graduation Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0570BA8B6AA15D2AE1BF18A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Graduation Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		383C27072683AF3B00776A52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383C27132683AF3B00776A52 /* ViewController.swift in Sources */,
+				383C272D2683B1B300776A52 /* anchor.swift in Sources */,
+				3815A74E268D1D0D00872854 /* KeyWords.swift in Sources */,
+				38210C7926891120004CD897 /* ApiRouter.swift in Sources */,
+				38210C7826891120004CD897 /* Constants.swift in Sources */,
+				383C27132683AF3B00776A52 /* StudentAnswerVC.swift in Sources */,
+				383C272A2683B14500776A52 /* SimilarityVC.swift in Sources */,
+				38210C72268910B5004CD897 /* Similarity.swift in Sources */,
 				383C270F2683AF3B00776A52 /* AppDelegate.swift in Sources */,
+				383C27262683B11F00776A52 /* ProfessorAnswerVC.swift in Sources */,
+				38210C7726891120004CD897 /* ApiService.swift in Sources */,
+				383C27282683B13300776A52 /* ShowingAnswersVC.swift in Sources */,
 				383C27112683AF3B00776A52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +298,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		383C27142683AF3B00776A52 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				383C27152683AF3B00776A52 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		383C27192683AF3C00776A52 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +427,14 @@
 		};
 		383C27202683AF3C00776A52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7719AF910ACCDA6E74BE1C /* Pods-Graduation Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69J7L8UL9S;
 				INFOPLIST_FILE = "Graduation Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +448,14 @@
 		};
 		383C27212683AF3C00776A52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AB2D4AB1DFDF48E238A5B0 /* Pods-Graduation Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69J7L8UL9S;
 				INFOPLIST_FILE = "Graduation Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
